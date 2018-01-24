@@ -5,7 +5,7 @@ MAINTAINER jy
 RUN apk add --update --no-cache \
 	lighttpd \
 	lighttpd-mod_auth \
-  && rm -rf /var/cache/apk/*
+  && rm -rf /var/cache/apk/* \
   && dd if=/dev/zero of=/var/www/localhost/htdocs/100M.zip bs=1M count=100
 
 ## workaround for bug preventing sync between VirtualBox and host
