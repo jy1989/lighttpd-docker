@@ -20,4 +20,4 @@ EXPOSE 80
 VOLUME /var/www/localhost
 VOLUME /etc/lighttpd
 
-CMD ["lighttpd",  "-f", "/etc/lighttpd/lighttpd.conf"]
+CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]
