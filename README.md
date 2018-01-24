@@ -8,8 +8,8 @@ fork from [spujadas/lighttpd-docker](https://github.com/spujadas/lighttpd-docker
 
 With the default configuration files:
 
-	$ sudo docker run --rm -t -p <http-port>:80 jy1989/lighttpd-download-test
+	$ sudo docker run -p <http-port>:80 jy1989/lighttpd-download-test
 
-### go to http://yoursite:<http-port>  you will see the download page.
+### go to yoursite:<http-port>  you will see the download page.
 
 
