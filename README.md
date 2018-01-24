@@ -1,4 +1,4 @@
-# lighttpd Docker image
+# lighttpd-download-test-docker
 
 gen file for download in lighttpd then you can test the speed of server
 
